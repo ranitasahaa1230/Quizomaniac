@@ -19,6 +19,7 @@
   --filled-green: #38b000;
   --blue-color: #3a86ff;
   --filled-red: #ba181b;
+  --black-bg: #000814;
 
 }
 body {
@@ -61,7 +62,7 @@ p {
   padding: 0.8rem;
 }
 
-.primary-text {
+.primary__text {
   color: var(--text-color);
   font-size: 1.2rem;
 }
@@ -182,6 +183,7 @@ h3{
 }
 .question__bold{
     font-size: 2rem;
+    color:var(--gray);
 }
 .question__list,.answer__list{
     margin:8px;
@@ -209,11 +211,16 @@ h3{
     color: var(--bg-code);
     
 }
-h4{
+.score__result{
     color: var(--primary-color);
-    margin-top: 1rem;
+    font-size: 2rem;
 }
-
+.answer__next{
+  margin: 1rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--black-bg);
+}
 .answer__list,.answer__items{
     text-align: left;
 }
