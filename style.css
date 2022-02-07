@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray: #3e4152;
+  --primary-color: #3f37c9;
+  --text-color: #007fff;
+  --secondary-color: #0096c7;
+  --bg-code: #e2e2e2;
+  --darkblue-bg: #023e8a;
+  --blue-color: #3a86ff;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  color: var(--gray);
+  min-height: 100vh;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  font-size: inherit;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-weight: 900;
+}
+
+h1,
+h2,
+p {
+  margin: 0.625rem 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.4rem;
+  padding: 0.8rem;
+}
+
+.primary-text {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  box-shadow: 0 0 12px 2px var(--primary-color);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  font-size: 1.2rem;
+}
+.navbar li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 2px solid var(--bg-code);
+  border-radius: 50px;
+}
+
+form input,
+form button {
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+form input {
+  flex-grow: 1;
+  border-radius: 50px;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+form button {
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+form button:hover,
+form button i:hover {
+  background: var(--text-color);
+  color: var(--bg-code);
+}
+.header__nav {
+  margin-left: auto;
+}
+.icons {
+  font-size: 1.2rem;
+  padding: 3.5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.header__nav a {
+  padding: 8px;
+}
+.home:hover,
+li a:hover,
+.user:hover {
+  color: var(--text-color);
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.img .icons {
+  margin-left: 10px;
+  font-size: 2.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.section__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.quiz__section {
+  line-height: 1.6;
+}
+.quiz__image {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  color: var(--primary-color);
+}
+button.explore__btn {
+  color: var(--bg-code);
+  padding: 1rem;
+  background: var(--primary-color);
+  border: none;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+button.explore__btn:hover {
+  opacity: 1;
+}
+
+.footer {
+  text-align: center;
+  background: var(--bg-code);
+  margin-top: 5rem;
+  font-size: 1.3rem;
+  padding: 1.8rem;
+}
+.link__social {
+  margin: 1rem;
+}
+.nav__pills {
+  padding: 8px;
+  font-size: 1.8rem;
+}
+.nav__pills:hover {
+  color: var(--text-color);
+}
+span.footer__copyright {
+  font-size: 1.2rem;
+}
