@@ -15,14 +15,17 @@
   --secondary-color: #0096c7;
   --bg-code: #e2e2e2;
   --darkblue-bg: #023e8a;
+  --filled-yellow: #ed6c02;
+  --filled-green: #38b000;
   --blue-color: #3a86ff;
+  --filled-red: #ba181b;
+  --black-bg: #000814;
 }
 body {
   font-family: "Roboto Slab", serif;
   color: var(--gray);
   min-height: 100vh;
 }
-
 img {
   max-inline-size: 100%;
   block-size: auto;
@@ -58,7 +61,7 @@ p {
   padding: 0.8rem;
 }
 
-.primary-text {
+.primary__text {
   color: var(--text-color);
   font-size: 1.2rem;
 }

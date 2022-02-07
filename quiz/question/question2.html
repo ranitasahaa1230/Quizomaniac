@@ -17,6 +17,39 @@
     <link rel="stylesheet" href="../quiz.css" />
   </head>
   <body>
+    <header class="header">
+      <h1 class="logo"><a href="/">Travizz</a></h1>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <form>
+              <input
+                type="text"
+                id="input__search"
+                placeholder="Find a quiz"
+              />
+              <button id="submit-btn">
+                <i class="fas fa-search icons"></i>
+              </button>
+            </form>
+          </li>
+          <li class="home">
+            <i class="fas fa-home icons"></i><a href="/index.html">Home</a>
+          </li>
+          <li class="home">
+            <i class="fas fa-chart-line icons"></i><a href="#">Dashboard</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__nav">
+        <a href="#" class="user">
+          <span>LOGIN</span>
+          <span class="img"><i class="fas fa-user-circle icons"></i></span>
+        </a>
+      </div>
+    </header>
+
     <div class="question__section question_1">
       <h2 class="question">TRAVEL QUIZ</h2>
       <div class="question__flex">
@@ -48,5 +81,30 @@
   
         </ul>
       </div>
+
+      <footer class="footer">
+        <div>Made with 💕 by Ranita Saha</div>
+        <div class="link__social">
+          <a
+            href="https://github.com/ranitasahaa1230/Travizz-UI-Component-Library"
+            target="_blank"
+            class="nav__pills"
+            ><i class="fab fa-github icon"></i
+          ></a>
+          <a
+            href="https://twitter.com/Ifullofsunshine"
+            target="_blank"
+            class="nav__pills"
+            ><i class="fab fa-twitter icon"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/saharanitaa1230dreamer/"
+            target="_blank"
+            class="nav__pills"
+            ><i class="fab fa-linkedin icon"></i
+          ></a>
+        </div>
+        <span class="footer__copyright">© 2022 || Travizz</span>
+      </footer>
 </body>
 </html>
