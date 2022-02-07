@@ -16,9 +16,9 @@
   --bg-code: #e2e2e2;
   --darkblue-bg: #023e8a;
   --filled-yellow: #ed6c02;
-  --filled-green: #2e7d32;
+  --filled-green: #38b000;
   --blue-color: #3a86ff;
-  --filled-red: #ae2012;
+  --filled-red: #ba181b;
 
 }
 body {
@@ -71,10 +71,12 @@ ul {
 .categories, .rules{
     text-align: center;
 }
-h3{
+h3,h4{
     padding:8px 10px;
-    font-weight: bold;
     font-size: 1.4rem;
+}
+h3{
+    font-weight: bold;
 }
 .card__flex{
     display: flex;
@@ -125,7 +127,7 @@ h3{
   .text:hover {
     opacity: 1;
   }
-  .rules__section, .question__section{
+  .rules__section, .question__section, .answer__section{
     width: 100%;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -167,4 +169,92 @@ h3{
 .text__btn{
     text-align: center;
     margin: 1rem 0;
+}
+.question{
+    color: var(--secondary-color);
+    border-bottom:1px solid  var(--secondary-color);
+}
+.question__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+.question__bold{
+    font-size: 2rem;
+}
+.question__list,.answer__list{
+    margin:8px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--darkblue-bg);
+    font-weight: 700;
+}
+.question__items{
+    margin: 1.5rem;
+    border: 1px solid var(--bg-code);
+    background: var(--bg-code);
+    padding: 8px;
+    cursor: pointer;
+    color: var(--gray);
+    font-weight: 400;
+}
+.question__items:nth-child(2){
+    background:var(--filled-green);
+    color: var(--bg-code);
+    
+}
+.question__items:nth-child(4){
+    background:var(--filled-red);
+    color: var(--bg-code);
+    
+}
+h4{
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+.answer__list,.answer__items{
+    text-align: left;
+}
+.answer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.answer__flex{
+    width: 100%;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 8px 10px;
+    box-shadow: 0 0 12px 2px var(--primary-color);
+}
+
+.answer__bold{
+  max-width: 6rem;
+  text-align: center;
+    color: var(--bg-code);
+    background: var(--secondary-color);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 15px;
+
+}
+.answer__items{
+    margin: 1.4rem;
+    border: 1px solid var(--bg-code);
+    background: var(--bg-code);
+    padding: 5px 12px;
+    cursor: pointer;
+    color: var(--gray);
+    font-weight: 400;
+}
+.answer__items:nth-last-of-type(3){
+    background:var(--filled-green);
+    color: var(--bg-code);
+    
 }
