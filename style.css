@@ -195,7 +195,7 @@ button.explore__btn:hover {
 .footer {
   text-align: center;
   background: var(--bg-code);
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-size: 1.3rem;
   padding: 1.8rem;
 }
