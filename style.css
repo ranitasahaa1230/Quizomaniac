@@ -168,6 +168,7 @@ a {
 .quiz__section {
   line-height: 1.6;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 .quiz__image {
   width: 100%;
