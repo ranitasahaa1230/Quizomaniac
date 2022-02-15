@@ -49,7 +49,6 @@ h3 {
   font-size: 1.2rem;
   padding: 10px;
 }
-
 .text {
   margin-left: auto;
   color: var(--bg-code);
@@ -173,7 +172,6 @@ h3 {
   padding: 8px 10px;
   box-shadow: 0 0 12px 2px var(--primary-color);
 }
-
 .answer__bold {
   max-width: 6rem;
   text-align: center;
