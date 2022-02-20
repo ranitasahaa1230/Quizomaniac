@@ -24,7 +24,10 @@ Currently, it contains screens for the following page
   + Category One ([Travel Answers](https://travizz-quizzical.netlify.app/quiz/scorepage/scorepage2.html))
   + Category Two ([Fashion Answers](https://travizz-quizzical.netlify.app/quiz/scorepage/scorepage.html))
   + Category Three ([Food Answers](https://travizz-quizzical.netlify.app/quiz/scorepage/scorepage1.html))
-
+- Login Page()
+- SignUp Page()
+- Profile Page()
+- Quiz High Score Board()
 
 ## Live
 [Travizz Quiz](https://travizz-quizzical.netlify.app/)
