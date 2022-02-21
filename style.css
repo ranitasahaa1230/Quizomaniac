@@ -102,7 +102,7 @@ header {
 
 header .logo {
   font-size: 3rem;
-  background: -webkit-linear-gradient(var(--secondary-color), var(--bg-code));
+  background: -webkit-linear-gradient(var(--blue-color), var(--bg-code));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
