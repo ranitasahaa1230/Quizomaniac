@@ -1,3 +1,7 @@
+.main-quiz{
+  margin-top: 12rem;
+  
+}
 .categories,
 .rules {
   text-align: center;
@@ -5,7 +9,7 @@
 h3,
 h4 {
   padding: 8px 10px;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
 }
 h3 {
   font-weight: bold;
@@ -17,8 +21,8 @@ h3 {
   flex-wrap: wrap;
 }
 .card {
-  width: 22rem;
-  margin: 1rem;
+  width: 28rem;
+  margin: 2rem;
   overflow: hidden;
   height: max-content;
   outline: none;
@@ -27,8 +31,8 @@ h3 {
   box-shadow: 0 0 12px 2px var(--primary-color);
 }
 .card__img{
-  width: 22rem;
-  height: 16rem;
+  width: 28rem;
+  height: 20rem;
 }
 .card__desc {
   display: flex;
@@ -39,12 +43,12 @@ h3 {
   flex-wrap: wrap;
 }
 .desc {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 0 10px;
   margin-bottom: 6px;
 }
 .desc__span {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 10px;
 }
 .text {
@@ -53,7 +57,7 @@ h3 {
   background: var(--primary-color);
   border: none;
   padding: 12px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: 25px;
   cursor: pointer;
   opacity: 0.8;
@@ -67,13 +71,13 @@ h3 {
   width: 100%;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  max-width: 70ch;
+  max-width: 95ch;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 14rem;
   margin-bottom: 2rem;
-  padding: 0rem 1.5rem 2rem;
+  padding:1.4rem 1.5rem;
 }
 .rules__section {
   border: 1px solid var(--secondary-color);
@@ -81,10 +85,10 @@ h3 {
 .list__rules {
   margin-top: 2rem;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .star {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.4;
   padding: 5px;
   opacity: 0.5;
@@ -116,14 +120,14 @@ h3 {
   opacity: 0.8;
 }
 .question__bold {
-  font-size: 2rem;
-  color: var(--gray);
+  font-size: 3rem;
+  color: var(--black-bg);
 }
 .question__list,
 .answer__list {
   margin: 8px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: var(--darkblue-bg);
   font-weight: 700;
 }
@@ -146,12 +150,12 @@ h3 {
 }
 .score__result {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .answer__next {
   margin: 1rem;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size:2.2rem;
   color: var(--black-bg);
 }
 .answer__list,
@@ -171,12 +175,12 @@ h3 {
   box-shadow: 0 0 12px 2px var(--primary-color);
 }
 .answer__bold {
-  max-width: 6rem;
+  max-width: 10rem;
   text-align: center;
   color: var(--bg-code);
   background: var(--secondary-color);
   border: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   padding: 5px 10px;
   font-weight: 400;

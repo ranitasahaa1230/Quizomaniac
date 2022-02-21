@@ -56,18 +56,6 @@ img {
   display: inline-block;
 }
 
-/* h1 {
-  font-size: 3rem;
-  background: -webkit-linear-gradient(
-    var(--secondary-color),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-style: italic;
-  font-weight: 900;
-} */
-
 h1,
 h2,
 p {
@@ -258,7 +246,7 @@ span.footer-copyright {
   header {
     padding: 2rem;
   }
-  section {
+  section{
     padding: 2rem;
   }
 }
@@ -300,9 +288,11 @@ span.footer-copyright {
     width: 100%;
     margin: 2rem 0;
   }
-  section{
+  section, .form-box{
     margin-top: 18rem;
-
+  }
+  .main-quiz, .rules__section, .section__question, .answer__section{
+    margin-top: 26rem;
   }
 }
 
