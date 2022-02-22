@@ -26,8 +26,8 @@ Currently, it contains screens for the following page
   + Category Three ([Food Answers](https://quizomaniac-test.netlify.app/pages/scorepage/scorepage1.html))
 - Login Page(https://quizomaniac-test.netlify.app/pages/login.html)
 - SignUp Page(https://quizomaniac-test.netlify.app/pages/signup.html)
-- Profile Page()
-- Quiz High Score Board()
+- Profile Page(https://quizomaniac-test.netlify.app/pages/profile.html)
+- Quiz High Score Board(https://quizomaniac-test.netlify.app/pages/scoreboard.html)
 
 ## Live
 [Quizomaniac Quiz](https://quizomaniac-test.netlify.app/)
