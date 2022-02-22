@@ -28,6 +28,7 @@
   --green-bg: #84f1c9;
   --red-bg:#dc3545;
   --yellow-bg: #ffe7c5;
+  --footer-color: #403747;
 }
 
 html {
@@ -222,24 +223,29 @@ button.explore-btn:hover {
 
 .footer {
   text-align: center;
-  background: var(--bg-code);
-  margin-top: 14rem;
-  font-size: 2.2rem;
+  background: var(--footer-color);
+  margin-top: 5rem;
+  font-size: 1.8rem;
   padding: 1.8rem;
+  color: var(--bg-code);
+  /* width: 100%; */
+}
+.footer-login{
+  margin-top: 14rem;
 }
 .link-social {
   margin: 1rem;
 }
 .nav-pills .icon{
   padding: 8px;
-  font-size: 2.5rem;
-  color: var(--primary-color);
+  font-size: 2.3rem;
+  color: var(--bg-code);
 }
 .nav-pills .icon:hover {
-  color: var(--darkblue-bg);
+  color: var(--text-color);
 } 
 span.footer-copyright {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 991px) {
