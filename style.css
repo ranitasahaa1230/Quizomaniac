@@ -284,10 +284,12 @@ span.footer-copyright {
     font-weight: 800;
   }
 
-  header {
+  header, .profile-section,.profile-name{
     flex-flow: column;
   }
-
+.profile-name{
+  gap: 2rem;
+}
   header .class-form {
     width: 100%;
     margin: 2rem 0;

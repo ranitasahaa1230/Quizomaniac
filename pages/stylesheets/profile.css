@@ -1,0 +1,57 @@
+.profile-section{
+    margin: 12rem 8rem 4rem;
+    display: flex;
+    justify-content:flex-start;
+    box-shadow: 0 0 12px 0 var(--primary-color);
+    border-radius: 2rem;
+}
+.profile-info{
+    margin: 2.5rem;
+
+}
+.profile-name{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+.user-profile-image{
+  border-radius: 50%;
+  margin: 1.4rem;
+  object-fit: cover;
+}
+.profile-username h3{
+    font-size: 2.8rem;
+    color: var(--primary-color);
+}
+.profile-username p{
+    margin-top: 0;
+    font-size:2rem;
+    padding-top: 0;
+}
+.btm-b{
+    border-bottom: 2px solid var(--gray);
+    width: 100%;
+}
+
+.small-screen-button{
+    background-color: var(--primary-color);
+    padding: 6px 1.8rem;
+    color: var(--bg-code);
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.edit-pen{
+    margin: 10px;
+}
+.profile-about{
+    margin:0 2.8rem;
+}
+.profile-about h4{
+    color: var(--black-bg);
+}
+.profile-about p{
+    color: var(--gray);
+    margin-top: 0;
+    padding-top: 0;
+}
