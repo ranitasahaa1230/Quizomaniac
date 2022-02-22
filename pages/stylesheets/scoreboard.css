@@ -1,0 +1,14 @@
+.score-board{
+    margin: 12rem 5rem 6rem;
+    text-align: center;
+}
+.score-board h2{
+    color: var(--black-bg);
+}
+.display-question{
+    display: flex;
+    margin: auto;
+}
+.first-rank{
+    display: flex;
+}
