@@ -17,7 +17,7 @@
   --primary-color: #3f37c9;
   --text-color: #007fff;
   --secondary-color: #0096c7;
-  --bg-code: #e2e2e2;
+  --bg-code: #fafafa;
   --darkblue-bg: #023e8a;
   --filled-yellow: #ed6c02;
   --filled-green: #38b000;
@@ -297,7 +297,7 @@ span.footer-copyright {
   section, .form-box{
     margin-top: 18rem;
   }
-  .main-quiz, .rules__section, .section__question, .answer__section, .score-board{
+  .main-quiz, .rules__section, .section__question, .answer__section, .profile-section,.score-board{
     margin-top: 26rem;
   }
 }

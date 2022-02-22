@@ -49,6 +49,7 @@
 }
 .profile-about h4{
     color: var(--black-bg);
+    font-size: 2.2rem;
 }
 .profile-about p{
     color: var(--gray);
