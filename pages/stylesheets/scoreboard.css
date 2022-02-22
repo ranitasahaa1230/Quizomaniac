@@ -3,12 +3,59 @@
     text-align: center;
 }
 .score-board h2{
-    color: var(--black-bg);
+    color: var(--darkblue-bg);
+    text-decoration: underline;
 }
 .display-question{
-    display: flex;
-    margin: auto;
+    margin:4rem;
 }
-.first-rank{
+
+.stacked-list li {
+    border-left: 6px solid var(--primary-color);
+    padding: 1.2rem;
+    background-color:gold;
+    border-radius: 5px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.2rem auto;
+    width:60%;
 }
+.stacked-list span,
+.stacked-list p,
+.stacked-list i {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--black-bg);
+}
+
+.stacked-list li i{
+    margin-right: 1rem;
+    color: var(--darkblue-bg);
+    font-size: 2.2rem;
+}
+
+.stacked-list .first-rank{
+    background-color: var(--green-bg);
+    border-left: 6px solid var(--filled-green);
+}
+.stacked-list .second-rank{
+    background-color: var(--blue-bg);
+    border-left: 6px solid var(--secondary-color);
+}
+.stacked-list .third-rank{
+    background-color: var(--yellow-bg);
+    border-left: 6px solid var(--filled-yellow);
+}
+.stacked-list .rank{
+    background-color: var(--red-bg);
+    border-left: 6px solid var(--filled-red);
+}
+.stacked-list .rank span,.stacked-list .rank p, .stacked-list .rank i{
+    color: var(--bg-code);
+    font-weight: 400;
+}
+.stacked-list .rank i{
+    font-weight: 700;
+}
+

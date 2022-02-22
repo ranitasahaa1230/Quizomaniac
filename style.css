@@ -23,7 +23,11 @@
   --filled-green: #38b000;
   --blue-color: #3a86ff;
   --filled-red: #ba181b;
+  --blue-bg: #cfe2ff;
   --black-bg: #000814;
+  --green-bg: #84f1c9;
+  --red-bg:#dc3545;
+  --yellow-bg: #ffe7c5;
 }
 
 html {
@@ -291,7 +295,7 @@ span.footer-copyright {
   section, .form-box{
     margin-top: 18rem;
   }
-  .main-quiz, .rules__section, .section__question, .answer__section{
+  .main-quiz, .rules__section, .section__question, .answer__section, .score-board{
     margin-top: 26rem;
   }
 }
